@@ -515,7 +515,7 @@ function handleDeleteRange(range) {
     this.quill.formatLine(range.index, 1, formats, Quill.sources.USER);
   }
   this.quill.setSelection(range.index, Quill.sources.SILENT);
-  this.quill.focus();
+  // this.quill.focus();
 }
 
 // TODO use just updateContents()
